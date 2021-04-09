@@ -4,15 +4,7 @@ import "firebase/auth";
 
 import ListItemData from "../data-structures/list-item/list-item.data.js";
 
-const config = {
-    apiKey: "AIzaSyCy0wT1vrAZZvi4tVn1jtfVBpVIcjwB44k",
-    authDomain: "todo-list-ae2e7.firebaseapp.com",
-    projectId: "todo-list-ae2e7",
-    storageBucket: "todo-list-ae2e7.appspot.com",
-    messagingSenderId: "748816831920",
-    appId: "1:748816831920:web:227c396790a7df8a7d7275",
-    measurementId: "G-PZNBPS7L9X"
-};
+const config = CONFIG_DATA_HERE
 
 
 firebase.initializeApp(config);
